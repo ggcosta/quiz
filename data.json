@@ -1,0 +1,27 @@
+{   
+    "standByVideo": "videos/standBy.mp4",
+    "numQuestionsToAsk": 1,
+    "questions": [
+        {
+            "videoPath": "videos/1.mp4",
+            "answers":[
+                {
+                    "answer": "Yes",
+                    "correct": true
+                },
+                {
+                    "answer": "No",
+                    "correct": false
+                },
+                {
+                    "answer": "I don't know",
+                    "correct": false
+                },
+                {
+                    "answer": "I don't care",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}
