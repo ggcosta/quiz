@@ -1,24 +1,67 @@
 {   
-    "standByVideo": "videos/standBy.mp4",
-    "numQuestionsToAsk": 1,
+    "standByPath": "videos/stand_by.mp4",
+    "introPath": "videos/intro.mp4",
+    "numQuestionsToAsk": 2,
     "questions": [
         {
-            "videoPath": "videos/1.mp4",
+            "videoPath": "videos/question_1.mp4",
             "answers":[
                 {
-                    "answer": "Yes",
+                    "answer": "Porto",
                     "correct": true
                 },
                 {
-                    "answer": "No",
+                    "answer": "Benfica",
                     "correct": false
                 },
                 {
-                    "answer": "I don't know",
+                    "answer": "Sporting",
                     "correct": false
                 },
                 {
-                    "answer": "I don't care",
+                    "answer": "Portimonense",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "videoPath": "videos/question_2.mp4",
+            "answers":[
+                {
+                    "answer": "António Costa",
+                    "correct": false
+                },
+                {
+                    "answer": "Afonso Henriques",
+                    "correct": true
+                },
+                {
+                    "answer": "Cristiano Ronaldo",
+                    "correct": false
+                },
+                {
+                    "answer": "José Sócrates",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "videoPath": "videos/question_3.mp4",
+            "answers":[
+                {
+                    "answer": "3 de Junho de 1912",
+                    "correct": false
+                },
+                {
+                    "answer": "5 de Outubro de 1920",
+                    "correct": false
+                },
+                {
+                    "answer": "5 de Outubro de 1910",
+                    "correct": true
+                },
+                {
+                    "answer": "10 de Novembro de 1910",
                     "correct": false
                 }
             ]

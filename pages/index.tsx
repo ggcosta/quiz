@@ -6,9 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main>
-      <div>
-        <h1>Yo</h1>
+    <main className="flex place-content-center">
+      <div className="flex flex-col place-content-center relative h-screen aspect-[9/16] bg-white">
         <PhaseHandler data={programData} />
       </div>
     </main>

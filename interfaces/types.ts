@@ -1,5 +1,12 @@
+export interface Phase {
+  type: "standBy" | "intro" | "question" | "output";
+  videoPath: string;
+  answers?: Answer[];
+}
+
 export interface ProgramData {
-  standByVideo: string;
+  standByPath: string;
+  introPath: string;
   numQuestionsToAsk: number;
   questions: Question[];
 }
